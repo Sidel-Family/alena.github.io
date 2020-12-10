@@ -1,0 +1,60 @@
+[blogAlias]
+other = "Блог "
+
+[home]
+other = "Главная"
+
+[backToHome]
+other = "На главную"
+
+[flip]
+other = "Переверни меня!"
+
+[archives]
+other = "Архив"
+
+[allTags]
+other = "Все теги"
+
+[tag]
+one = "тег"
+few = "{{ .Count }} тега"
+other = "{{ .Count }} тегов"
+
+[allCategories]
+other = "Все категории"
+
+[category]
+one = "категория"
+few = "{{ .Count }} категории"
+other = "{{ .Count }} категорий"
+
+[article]
+one = "1 статья"
+few = "{{ .Count }} статьи"
+other = "{{ .Count }} статей"
+
+[socialLinks]
+other = "Соц. сети"
+
+[minuteRead]
+one = " минута"
+other = " минут чтения"
+
+[updateAt]
+other = "Обновлено"
+
+[noTag]
+other = "Нет тегов"
+
+[prevPage]
+other = "Предыдущая страница"
+
+[nextPage]
+other = "Следующая страница"
+
+[saveAsImage]
+other = "Сохранить как картинку"
+
+[search]
+other = "Поиск"

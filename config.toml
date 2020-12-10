@@ -1,0 +1,60 @@
+baseURL = "http://example.org/"
+languageCode = "ru-RU"
+defaultContentLanguage = "ru"
+title = "На грани"
+theme = "dream"
+
+[params]
+  background = "black"
+  backgroundImage = "/me/background.jpg"
+  linkColor = "seagreen"
+
+  # dark mode
+  # backgroundDark = "black"
+  # backgroundImageDark = "/me/background-dark.jpg"
+  darkLinkColor = "darkseagreen"
+  darkNav = true
+  dark404 = true
+
+  images = [""]
+
+  author = "AlenaSidel"
+  description = "Мои размышления"
+  avatar = "/me/alena.jpg"
+  headerTitle = "На грани"
+  motto = "Даже с детьми у вас есть шансы на выживание"
+  categoriesLimitInHeader = 6
+  # headerBottomText = ""
+
+  rss = true
+
+  # valine = true
+  # LEANCLOUD_APP_ID = ""
+  # LEANCLOUD_APP_KEY = ""
+
+  email = "sidelnikova.alena@gmail.com"
+  twitter = "samuraikasan"
+  facebook = "samuraikasan"
+  instagram = ""
+  # mastodon = ""
+  linkedin = ""
+
+  siteStartYear = 2020
+
+  favicon = "/favicon.ico"
+
+  highlightjs = false
+  # highlightjsCDN = "https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/highlight.min.js"
+  highlightjsExtraLanguages = ["ocaml"]
+  highlightjsTheme = "gruvbox-light"
+  highlightjsThemeDark = "gruvbox-dark"
+
+  # search
+  enableSearch = true
+
+  # options
+  showSummaryCoverInPost = true
+  # hasTwitterEmbed = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
